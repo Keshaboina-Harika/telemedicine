@@ -1,0 +1,17 @@
+body {
+	padding: 10px;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	line-height: 1.6;
+	font-size: 18px;
+}
+h1{
+    font-size:60px;
+    text-align:center;
+}
+.form-group{
+    font-size: 30px;
+    text-align:center;
+    line-height:100px;
+}
