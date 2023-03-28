@@ -1,0 +1,184 @@
+body{
+    background-color:white;
+	width: 185vh;
+}
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.104) ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color:  #e3e6f3;
+    height: 80px;
+    z-index:999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+#header h4{
+	font-size: 20px;
+}
+#navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+    position:relative;
+	font-size: 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s ease;
+
+}
+#navbar li a:hover{
+    color: rgb(105, 153, 216);
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:"";
+    width:30%;
+    height: 2px;
+    background: steelblue;
+    position :absolute;
+    bottom:-4px;
+    left:20px;
+    
+
+}
+#content{
+    background-image: url("http://atlas-content-cdn.pixelsquid.com/stock-images/heart-shape-kovXo3D-600.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#content h4{
+    padding-top: 150px;
+    padding-left: 40px;
+    font-size: 40px;
+    color: #0390fc;
+}
+#content h2{
+    padding-left: 40px;
+}
+#content h1{
+    padding-left: 40px;
+}
+#content button{
+    background-image: url("https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/button.png?raw=true");
+    color: rgb(46, 139, 97) ;
+    padding: 14px 80px 20px 65px;
+    border:0;
+    cursor:pointer;
+    background-color:transparent;
+    font-weight: 700;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#feature .fe-box img{
+    margin-bottom: 10px;
+    width:100%;
+}
+#feature .fe-box{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 25px 15px;
+    box-shadow:20px 20px 34px rgba(0, 0, 0, 0.104);
+    border:1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+}
+#feature .fe-box h6{
+	font-size: 30px;
+    
+}
+#feature .fe-box a{
+    text-decoration: none;
+    color:#428bc3;
+}
+#feature .fe-box:hover{
+	box-shadow:10px 10px 54px rgba(0, 0, 0, 0.150);
+	cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: space-between;
+ background-color: #505452;
+ width: 210vh;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+footer .col p{
+    font-size: 17px;
+    margin:0;
+    padding: 0;
+    color: cornsilk;
+}
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 80px 0;
+}
+footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: cornsilk;
+    margin-bottom: 10px;
+}
+footer .follow{
+    margin-top: 20px;
+
+}
+footer .follow i{
+    color: #fff;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,footer a:hover{
+    color:#d3d0d6;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+
+}
+  
